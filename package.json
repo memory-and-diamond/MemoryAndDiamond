@@ -1,10 +1,13 @@
 {
-  "name": "hoobank",
+  "homepage": "http://memory-and-diamond.github.io/MemoryAndDiamond",
+  "name": "Memory And Diamond",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -23,6 +26,7 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.6",
     "vite": "^3.0.0"
