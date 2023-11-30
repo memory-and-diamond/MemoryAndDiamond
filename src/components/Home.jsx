@@ -31,7 +31,7 @@ const Home = () => {
         <article>
             <header className="h-screen">
                 <video autoPlay muted loop style={videoStyling} >
-                    <source src="public/Images/bgVideo.mp4" type="video/mp4" />
+                    <source src="/Images/bgVideo.mp4" type="video/mp4" />
                 </video>
                 <div style={divStyling} className="text-center w-11/12 sm:w-6/12">
                     <h1 style={{ fontFamily: 'Dancing Script, cursive'}} className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-8 drop-shadow-xl">
